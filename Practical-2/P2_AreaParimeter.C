@@ -1,11 +1,10 @@
-//Program for calculation of Perimeter and Area.
+Program for calculation of Perimeter and Area.
 #include<stdio.h>
-//#include<conio.h>
+#include<conio.h>
 int main()
 {
 	float l , b , A , P ;
-
-//	clrscr();
+	clrscr();
 
 	l = 60 ;
 	b = 90 ;
@@ -16,6 +15,6 @@ int main()
 	printf("\nArea = %.2f",A);
 	printf("\nPerimeter = %.2f",P);
 
-	//getch();
+	getch();
 	return 0;
 }
